@@ -37,7 +37,7 @@ def get_chrome_pass():
         # Replace the decrypted password with a placeholder
         decrypted_password = "This is a secret for demo"
 
-        results.append(f"URL: {url}\nUsername: {username}\nPassword: {decrypted_password}\n{'-'*20}")
+        results.append(f"URL: {url}\nUsername: {username}\nPassword: "This is a secret for the demo"\n{'-'*20}")
 
     conn.close()
     os.remove(temp_path)
